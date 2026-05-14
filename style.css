@@ -902,14 +902,28 @@
             .stats-grid {
                 grid-template-columns: 1fr 1fr;
             }
+            .hero {
+                padding-top: 10rem;
+            }
             .hero h1 {
                 font-size: 2.5rem;
+                margin-top: 1.5rem;
+            }
+            .logo-mark-img {
+                height: 60px;
+                max-width: 70vw;
             }
         }
         
         @media (max-width: 480px) {
             .hero-btns {
                 flex-direction: column;
+                width: 100%;
+            }
+            .hero-btns .btn {
+                width: 100%;
+                padding: 1rem;
+                font-size: 0.85rem;
             }
             .stats-grid {
                 grid-template-columns: 1fr;
